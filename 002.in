@@ -1,0 +1,25 @@
+1390672572320679	0	StartRequest
+1390672572331061	0	BackendConnect	1	http://backend1-001.yandex.ru:1495/search?
+1390672572331534	0	BackendConnect	0	http://backend0-001.yandex.ru:1848/search?
+1390672572331939	0	BackendConnect	2	http://backend2-001.yandex.ru:1789/search?
+1390672572332019	0	BackendConnect	4	http://backend4-002.yandex.ru:1445/search?
+1390672572332896	0	BackendConnect	3	http://backend3-002.yandex.ru:1433/search?
+1390672572370445	0	BackendRequest	2
+1390672572371253	0	BackendRequest	4
+1390672572376201	0	BackendRequest	0
+1390672572381722	0	BackendRequest	1
+1390672572389323	0	BackendRequest	3
+1390672572823197	0	BackendOk	2
+1390672572832417	0	BackendOk	0
+1390672572871253	0	BackendError	4	ParseFromStream error
+1390672572881722	0	BackendError	1	Input/output error
+1390672572882606	0	BackendOk	3
+1390672572882729	0	BackendConnect	4	http://backend4-001.yandex.ru:1002/search?
+1390672572891737	0	BackendConnect	1	http://backend1-001.yandex.ru:1495/search?
+1390672572901758	0	BackendRequest	1
+1390672572915564	0	BackendRequest	4
+1390672573269124	0	BackendOk	1
+1390672573415564	0	BackendError	4	Connection reset by peer
+1390672573425081	0	StartMerge
+1390672573483245	0	StartSendResult
+1390672574005831	0	FinishRequest
